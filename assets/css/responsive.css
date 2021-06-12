@@ -1,0 +1,68 @@
+@media (max-width:992px){
+    #header {
+        padding: 8px 16px;
+    }
+
+    .header-content{
+        flex-direction: column;
+    }
+    .container{
+        width: 720px;
+    }
+
+    .container .logo{
+        font-size: 20px;
+    }
+    #banner{
+        margin-top: 72px;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .container .nav li{
+        display: block;
+    }
+
+    .container .nav li a{
+        padding-left: 0;
+    }
+
+    .mobile-menu{
+        display: block;
+    }
+
+    .portfolio-title,
+    .about-title,
+    .contact-title{
+        font-size: 36px;
+        font-weight: 700;
+    }
+
+    .col-2{
+        width: 50%;
+    }
+
+    .footer-infor{
+        display: block;
+    }
+
+    .col-1{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px){
+    .container{
+        width: 540px;
+    }
+
+    .mobile-menu{
+        right: 140px;
+    }
+
+    .portfolio-item img{
+        max-width: 400px;
+    }
+}
