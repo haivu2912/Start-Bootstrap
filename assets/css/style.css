@@ -387,6 +387,10 @@ html{
     text-align: center;
     font-size: 16px;
 }
+.copyright a{
+    color: #fff;
+    text-decoration: none;
+}
 
 .copyright a:hover{
     cursor: pointer;
